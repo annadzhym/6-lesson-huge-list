@@ -3,13 +3,14 @@ body {
     background-color: #f1f1f1;
     color: #c2c2c2;
 }
-form {
-    margin: 0 12%;
+.searching_form {
+    margin: 0 auto;
+    width: 90%;
 
 }
 .searching_form_input {
     border: none;
-    width: 90%;
+    width: 91%;
     color: #ec5a62;
     outline: none;
 }
@@ -40,18 +41,19 @@ ul {
  }
 
 .huge_search_list {
+    margin: 0 auto;
     display: inline-block;
-    width: 25%;
+    width: 30%;
 }
 .huge_search_list1 {
-    margin-left: 12%;
+    margin-left: 5%;
 }
 .huge_search_list_image {
     border-radius: 50%;
 }
 a {
     margin: 1.5%;
-    position: absolute;
+    vertical-align: 1em;
     color: #c2c2c2;
     text-decoration: none;
 }
