@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #c2c2c2;
+}
+
+.main_search {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.searching_form_input {
+    border: none;
+    width: 90%;
+    color: #ec5a62;
+    outline: none;
+    background-color: #f1f1f1;
+    font-size: 90px;
+    opacity: 0.5;
+}
+
+.searching_button {
+    width: 8%;
+    border: none;
+}
+
+.list_item {
+     padding: 3%;
+     background-color: rgba(118,117,128,0.05);
+     border-radius: 4%;
+     list-style-type: none;
+     font-weight: 400;
+     margin: 1%;
+}
+.list_item:hover {
+    background-color: rgba(118,117,128,0.1);
+}
+.people, .popular, .recent {
+     padding: 0;
+ }
+
+.huge_search_list {
+    display: inline-block;
+    width: 33%;
+}
+
+.huge_search_list_image {
+    border-radius: 50%;
+}
+.link_titles {
+    margin: 1.5%;
+    vertical-align: 1em;
+    color: #c2c2c2;
+    text-decoration: none;
+}
+.link_titles:hover {
+    cursor: pointer;
+    color: #ec5a62;
+}
